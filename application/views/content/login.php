@@ -15,7 +15,7 @@
                     <h4>Ingresa usando facebook</h4>
                     <?php
                         echo anchor(
-                                base_url() . 'login/facebook',
+                                $facebook_data['login_url'],
                                 '<i class="fa fa-facebook-square"></i>
                                 Ingresa con Facebook',
                                 'title="Ingresa con Facebook" class="social-button facebook btn btn-block btn-facebook" class="6"'
