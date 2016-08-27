@@ -1103,5 +1103,48 @@ label img {
     display: block;
 }
 
+#login .social-button.google{
+    color: #fff;
+    font-size: 15px;
+    height: 40px;
+    line-height: 1.75em;
+    margin-bottom: 15px;
+    position: relative;
+    background-color: #F44336;
+    display: block;
+}
+
+#login .register-form input{
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    width: 90%;
+    height: 35px;
+    line-height: 20px;
+    padding: 2px 15px;
+    margin: 15px 0;
+    float: none;
+    margin: 12px auto;
+}
+
+#login .register-form .send-button {
+    color: #fff;
+    font-size: 15px;
+    height: 40px;
+    margin-bottom: 15px;
+    position: relative;
+    background-color: #51bbe7;
+    display: block;
+}
+
+#login .register-form .send-button:hover{
+    background-color: #3b83a0;
+}
+
+#login h3, #login h4 {
+  text-align: center;
+}
+
+
 
 /*# sourceMappingURL=style.css.map */

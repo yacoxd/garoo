@@ -51,6 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'home';
 $route['login'] = 'login';
+$route['google_login'] = 'login/google_login';
 $route['ingresa'] = 'home/form';
 $route['revisa'] = 'home/stats';
 $route['home'] = 'home';

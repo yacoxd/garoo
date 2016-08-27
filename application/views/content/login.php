@@ -10,33 +10,43 @@
         </p>
         <div class="clearfix"></div>
 
-        <div class="row wrapper wrapper-content animated fadeInRight col-md-9 col-xs-12 center-block">
-            <div class="col-md-4 col-xs-12">
+        <div class="row animated fadeInRight col-md-9 col-xs-12 center-block">
+            <div class="col-md-6 col-xs-12">
                     <h4>Ingresa usando facebook</h4>
                     <?php
                         echo anchor(
                                 $facebook_data['login_url'],
                                 '<i class="fa fa-facebook-square"></i>
                                 Ingresa con Facebook',
-                                'title="Ingresa con Facebook" class="social-button facebook btn btn-block btn-facebook" class="6"'
+                                'title="Ingresa con Facebook" class="social-button facebook btn btn-block" class="6"'
+                            );
+                        echo '<div class="clearfix"></div>';
+                    ?>
+            </div>
+
+            <div class="col-md-6 col-xs-12">
+                <h4>Ingresa usando Google+</h4>
+                 <?php
+                        echo anchor(
+                                $login_url_google,
+                                '<i class="fa fa-google-plus "></i>
+                                Ingresa con Google+',
+                                'title="Ingresa con Google+" class="social-button google btn btn-block" class="6"'
                             );
                         echo '<div class="clearfix"></div>';
 
                     ?>
             </div>
-
-            <div class="col-md-4 col-xs-12">
-                <h4>Ingresa usando Twitter</h4>
-                    Twitter
-            </div>
-            <div class="col-md-4 col-xs-12">
-                <h4>Ingresa usando Google+</h4>
-                    Google Plus
-            </div>
+            
         </div>
         <div class="row wrapper wrapper-content animated fadeInRight">
-            <div class="col-md-8 col-xs-12 center-block">
-                    Formulario
+            <div class="col-md-8 col-xs-12 center-block register-form">
+                    <h3>Registrate</h3>
+                    <input name="name" placeholder="Nombres">
+                    <input name="lastname" placeholder="Apellidos">
+                    <input name="email" placeholder="Email">
+                    <input name="contraseña" placeholder="Contraseña">
+                    <input type="submit" class="send-button" value ="Enviar" />
             </div>
         </div>
     </div>
